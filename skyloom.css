@@ -209,7 +209,7 @@ body {
 
 .each_service .service_icon {
   position: absolute;
-  left: -1.875rem;
+  left: -1.375rem;
   top: -15rem;
   height: 28.125rem;
   aspect-ratio: 1/1;
@@ -490,7 +490,7 @@ form #submit_btn {
 
   .each_service .service_icon {
     position: absolute;
-    left: 4.125rem;
+    left: 0.125rem;
     top: -10rem;
     height: 18.125rem;
     aspect-ratio: 1/1;
