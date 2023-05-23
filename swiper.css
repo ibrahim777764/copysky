@@ -62,17 +62,26 @@
   }
 }
 
+@media (max-width: 768px) {
+  /* Styles for mobile devices */
+  .container {
+      flex-direction: column;
+  }
+}
+
 .yellow_wrapper {
   height: 832px;
-  width: 50%;
+
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+
 }
 
 .yellow_image {
-  height: 550px;
-  aspect-ratio: 1/1;
-  object-fit: cover;
+  max-width: 100%;
+            height: auto;
 }
 
 .swiper-wrapper {
