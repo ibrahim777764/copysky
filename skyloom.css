@@ -541,7 +541,7 @@ form #submit_btn {
   .clients .clientlist {
     column-gap: 40px;
   }
-
+}
 .each_from_section {
   margin-top: 0.5rem;
 }
@@ -609,5 +609,4 @@ form #submit_btn {
 .margin_util{
 margin-top: 75px;
 margin-bottom: 75px;
-}
 }
