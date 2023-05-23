@@ -75,6 +75,13 @@
 }
 
 
+@media (max-width: 768px) {
+  /* Styles for mobile devices */
+  .container {
+      flex-direction: column;
+  }
+}
+
 
 .swiper-wrapper {
   width: 100%;
