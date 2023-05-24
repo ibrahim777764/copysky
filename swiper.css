@@ -43,6 +43,10 @@
 .our_work {
   position: relative;
 }
+.mouse-icon {
+  cursor: pointer;
+}
+
 
 .container {
   max-width: 100vw !important;
