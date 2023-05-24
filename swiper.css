@@ -49,12 +49,6 @@
   width: 100% !important;
 }
 
-#swiper {
-  padding: 4rem 0;
-  width: 100% !important;
-  position: absolute;
-  top: 0;
-}
 
 @media (min-width: 751px) and (max-width: 1440px) {
   #swiper {
@@ -72,6 +66,14 @@
     aspect-ratio: 1/1;
     object-fit: cover;
   }
+
+
+  #swiper {
+    padding: 7rem 0;
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+  }
 }
 
 
@@ -80,6 +82,13 @@
   .container {
       flex-direction: column;
   }
+
+#swiper {
+  padding: 2rem 0;
+  width: 100% !important;
+  position: absolute;
+  top: 0;
+}
 }
 
 
@@ -108,7 +117,7 @@
 
 @media screen and (max-width: 768px) {
   .yellow_wrapper {
-    height: 500px;
+    height: 600px;
     width: 100%;
     display: flex;
     justify-content: center;
