@@ -61,17 +61,21 @@
 .stats {
   color: white;
   display: flex;
-  align-items: start;
-  gap:30px;
+  flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-between;
+}
+
+.each_stat {
+  width: 100%;
+  max-width: 220px;
+  margin-bottom: 20px;
 }
 
 .five9_stats {
   width: 500px;
 }
-.each_stat {
-  width: 220px;
-}
+
 
 .each_stat .percentage {
   font-family: var(--primary-font), sans-serif;
