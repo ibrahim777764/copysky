@@ -631,8 +631,9 @@ form #submit_btn {
   }
 
   .hanging_image_section .hanging_img {
-    height: 357px;
-    width:363px;
+    height: 371px;
+    width: 566px;
+}
   }
 
   .hero .hanging_image_section {
