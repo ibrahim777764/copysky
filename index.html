@@ -43,7 +43,7 @@
             We know a thing or two about growth marketing.
           </p>
         </div>
-        <img src="mouse_icon.png" class="mouse-icon" alt="mouse-icon" />
+        <img src="mouse_icon.png" class="mouse-icon" alt="mouse-icon" onclick="scrollToBottom()" />
         <div class="hanging_image_section">
           <img
             src="First page/first-page-astro.png"
@@ -571,6 +571,15 @@
         .on("gdpr:advanced", function () {
           console.log("Advanced button was pressed");
         });
+    </script>
+    <script>
+      function scrollToBottom() {
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: 'smooth'
+  });
+}
+
     </script>
   </body>
 </html>
