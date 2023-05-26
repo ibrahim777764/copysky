@@ -108,7 +108,7 @@ body {
   user-select: none;
   font-family: var(--primary-font), sans-serif;
   text-transform: uppercase;
-  font-size: 3.75vw;
+  font-size: 6.75vw;
   color: var(--bluish-color);
   display: flex;
   align-items: center;
@@ -358,10 +358,7 @@ form #submit_btn {
 
 @media screen and (max-width: 480px) {
   .services .services_block {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    row-gap: 120px;
-    column-gap: 0px;
+   
   }
   .service_body .service_title {
     font-family: var(--primary-font), sans-serif;
@@ -423,7 +420,7 @@ form #submit_btn {
   }
 
   .clients .clientlist {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 15px;
     column-gap: 10px;
     width: 90%;
@@ -687,7 +684,7 @@ form #submit_btn {
   
   
   
-}
+
 
 
 
@@ -769,8 +766,8 @@ form #submit_btn {
   opacity: 0.25;
 }
 
-.margin_util{
-margin-top: 75px;
-margin-bottom: 75px;
-}
 
+.margin_util {
+  margin-top: 11px;
+  margin-bottom: 75px;
+}
