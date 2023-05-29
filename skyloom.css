@@ -155,9 +155,9 @@ body {
 
 .each_service .service_body {
   position: absolute;
-  top: 11.25rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+    top: 6.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .service_body .service_title {
@@ -179,9 +179,9 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  row-gap: 2.5rem;
+  row-gap: 0.5rem;
   column-gap: 7vw;
-  height: 18.125rem;
+  height: 23.125rem;
 }
 
 .client_logo,
@@ -219,7 +219,8 @@ body {
 
 .lets_talk .footer_title {
   position: absolute;
-  top: 60px;
+  top: -29px
+  ;
   right:40px;
   left:40px;
 }
@@ -236,19 +237,20 @@ body {
 }
 
 .footer_top .lets_talk_img {
-  margin-left: 0;
-  margin-top:10px;
+  margin-left: 140px;
+  margin-top: -138px;
   height: 31.25rem;
   aspect-ratio: 1/1;
   object-fit: cover;
   width: 35vw;
-  height:35vw
+  height: 35vw;
 }
 
 .footer_top form {
   position: relative;
-  width: 47.5vw;
+  width: 83.5vw;
   height: 18.75rem;
+  margin-left: -325px;
 }
 
 
@@ -299,7 +301,7 @@ form #submit_btn {
   border: none;
   background-color: var(--bluish-color);
   position: absolute;
-  right: 0;
+  right: 118px;
   bottom: 0;
 }
 
@@ -367,7 +369,7 @@ form #submit_btn {
   }
   .services_block .each_service {
     border: 0.3125rem white solid;
-    height: 27.25rem;
+    height: 21.25rem;
     border-radius: 0.9375rem;
     position: relative;
   }
@@ -409,10 +411,9 @@ form #submit_btn {
 @media screen and (max-width: 768px) {
 
   .tagline .tagline_quote {
-    font-size: 0.9rem;
+    font-size: -0.1rem;
     text-align: left;
-    line-height: 1.4rem;
-  }
+    line-height: 1.4rem;  }
 
   .hanging_image_section .hanging_img {
     height: 800px;
@@ -432,7 +433,12 @@ form #submit_btn {
   }
 
   .partners_logo {
-    width: 100px;
+    width: 142px;
+  }
+
+  .partners_logo {
+
+    height: 85px;
   }
 
   .services .services_block {
@@ -447,9 +453,9 @@ form #submit_btn {
 
   .each_service .service_icon {
     position: absolute;
-    left: 0.125rem;
-    top: -10rem;
-    height: 18.125rem;
+    left: 2.125rem;
+    top: -6rem;
+    height: 13.125rem;
     aspect-ratio: 1/1;
     object-fit: cover;
   }
@@ -620,7 +626,7 @@ form #submit_btn {
 
   .tagline .second_tagline {
     color: white;
-    font-size: 1.8vw;
+    font-size: 0.8vw;
     margin-top: 0.3125rem;
     letter-spacing: 0.0125rem;
     word-spacing: 0.3125rem;
@@ -628,8 +634,8 @@ form #submit_btn {
   }
 
   .hanging_image_section .hanging_img {
-    height: 371px;
-    width: 566px;
+    height: 326px;
+    width: 537px;
 }
   }
 
