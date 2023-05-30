@@ -103,7 +103,6 @@ body {
 
 .clients .title_row,
 .services .title_row,
-.partnerships .title_row,
 .lets_talk .title_row {
   user-select: none;
   font-family: var(--primary-font), sans-serif;
@@ -113,6 +112,17 @@ body {
   display: flex;
   align-items: center;
 }
+.partnerships .title_row {
+  user-select: none;
+  font-family: var(--primary-font), sans-serif;
+  text-transform: uppercase;
+  font-size: 5.75vw;
+  color: var(--bluish-color);
+  display: flex;
+  align-items: center;
+
+}
+
 
 /* Services  */
 .div_center {
@@ -200,6 +210,12 @@ width: 47vw;
     border-radius: 0.125rem;
     background-color: var(--bluish-color);
 }
+.line2 {
+  width: 23vw;
+      height: 0.5rem;
+      border-radius: 0.125rem;
+      background-color: var(--bluish-color);
+  }
 /* Let's Talk  */
 .lets_talk {
   display: block;
