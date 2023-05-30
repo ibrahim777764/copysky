@@ -205,7 +205,7 @@ body {
 }
 
  .line {
-width: 48vw;
+width: 49vw;
     height: 0.5rem;
     border-radius: 0.125rem;
     background-color: var(--bluish-color);
