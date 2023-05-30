@@ -205,7 +205,7 @@ body {
 }
 
  .line {
-width: 47vw;
+width: 48vw;
     height: 0.5rem;
     border-radius: 0.125rem;
     background-color: var(--bluish-color);
@@ -227,7 +227,7 @@ width: 47vw;
 }
 .lets_talk .footer_img {
   width: 100vw;
-  height: 1248px;
+  height: 1261px;
   object-fit: cover;
   position: absolute;
   top: 0;
