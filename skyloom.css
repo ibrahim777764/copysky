@@ -195,10 +195,10 @@ body {
 }
 
  .line {
-  width: 100vw;
-  height: 0.5rem;
-  border-radius: 0.125rem;
-  background-color: var(--bluish-color);
+width: 47vw;
+    height: 0.5rem;
+    border-radius: 0.125rem;
+    background-color: var(--bluish-color);
 }
 /* Let's Talk  */
 .lets_talk {
@@ -211,7 +211,7 @@ body {
 }
 .lets_talk .footer_img {
   width: 100vw;
-  height: 1350px;
+  height: 1248px;
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -237,20 +237,20 @@ body {
 }
 
 .footer_top .lets_talk_img {
-  margin-left: 140px;
+  margin-left: 85px;
   margin-top: -138px;
   height: 31.25rem;
   aspect-ratio: 1/1;
   object-fit: cover;
-  width: 35vw;
-  height: 35vw;
+  width: 36vw;
+  height: 37vw;
 }
 
 .footer_top form {
   position: relative;
   width: 83.5vw;
   height: 18.75rem;
-  margin-left: -325px;
+  margin-left: -295px;
 }
 
 
@@ -403,8 +403,8 @@ form #submit_btn {
    font-size: 3vw;
  }
  .each_contact .footer_icon {
-   height: 20px;
-   width: 20px;
+  height: 11px;
+  width: 12px;
  }
 }
 
@@ -413,7 +413,7 @@ form #submit_btn {
   .tagline .tagline_quote {
     font-size: -0.1rem;
     text-align: left;
-    line-height: 1.4rem;  }
+    line-height: 14px;  }
 
   .hanging_image_section .hanging_img {
     height: 800px;
@@ -422,10 +422,11 @@ form #submit_btn {
 
   .clients .clientlist {
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 15px;
-    column-gap: 10px;
-    width: 90%;
+    row-gap: 5px;
+    column-gap: 5px;
+    width: 127%;
     margin: 0 5%;
+   
   }
 
   .client_logo {
@@ -453,12 +454,11 @@ form #submit_btn {
 
   .each_service .service_icon {
     position: absolute;
-    left: 2.125rem;
-    top: -6rem;
+    left: 3.125rem;
+    top: -7rem;
     height: 13.125rem;
     aspect-ratio: 1/1;
     object-fit: cover;
-  }
 
   
 }
@@ -626,10 +626,9 @@ form #submit_btn {
 
   .tagline .second_tagline {
     color: white;
-    font-size: 0.8vw;
+    font-size: 5px;
     margin-top: 0.3125rem;
-    letter-spacing: 0.0125rem;
-    word-spacing: 0.3125rem;
+    letter-spacing: 0px;
     font-family: var(--secondary-font), sans-serif;
   }
 
@@ -717,7 +716,7 @@ form #submit_btn {
   height: 4.875rem;
   width: 8.875rem;
   object-fit: cover;
-  margin-left: 23px;
+  margin-left: -38px;
 }
 
 .bottom_footer_logo {
@@ -727,8 +726,8 @@ form #submit_btn {
 
 .each_bottom_footer_logo {
   height: 2.125rem;
-  width: 44px;
-  margin-right: 10px; /* Adjust this value to control the gap between images */
+  width: 60px;
+  margin-right: -21px;
 }
 
 
