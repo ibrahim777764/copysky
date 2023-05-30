@@ -101,8 +101,17 @@ body {
   column-gap: 80px;
 }
 
-.clients .title_row,
-.services .title_row,
+.clients .title_row {
+  user-select: none;
+  font-family: var(--primary-font), sans-serif;
+  text-transform: uppercase;
+  font-size: 6.75vw;
+  color: var(--bluish-color);
+  display: flex;
+  align-items: center;
+  margin-left: 19px;
+}
+
 .lets_talk .title_row {
   user-select: none;
   font-family: var(--primary-font), sans-serif;
@@ -112,6 +121,19 @@ body {
   display: flex;
   align-items: center;
 }
+
+.services .title_row {
+
+  user-select: none;
+  font-family: var(--primary-font), sans-serif;
+  text-transform: uppercase;
+  font-size: 6.75vw;
+  color: var(--bluish-color);
+  display: flex;
+  align-items: center;
+}
+
+
 .partnerships .title_row {
   user-select: none;
   font-family: var(--primary-font), sans-serif;
@@ -196,7 +218,7 @@ body {
 
 .client_logo,
 .partners_logo {
-  height: 6.25rem;
+  height: 5.25rem;
 }
 
 
@@ -205,17 +227,24 @@ body {
 }
 
  .line {
-width: 49vw;
+width: 42vw;
     height: 0.5rem;
     border-radius: 0.125rem;
     background-color: var(--bluish-color);
 }
 .line2 {
-  width: 23vw;
+  width: 25vw;
       height: 0.5rem;
       border-radius: 0.125rem;
       background-color: var(--bluish-color);
   }
+  .line3 {
+    width: 36vw;
+    height: 0.5rem;
+    border-radius: 0.125rem;
+    background-color: var(--bluish-color);
+    margin-left: 27px;
+    }
 /* Let's Talk  */
 .lets_talk {
   display: block;
@@ -446,7 +475,7 @@ form #submit_btn {
   }
 
   .client_logo {
-    width: 100%;
+    width: 97%;
   }
 
   .partners_logo {
@@ -470,12 +499,11 @@ form #submit_btn {
 
   .each_service .service_icon {
     position: absolute;
-    left: 3.125rem;
-    top: -7rem;
-    height: 13.125rem;
+    left: 5.125rem;
+    top: -6rem;
+    height: 10.125rem;
     aspect-ratio: 1/1;
     object-fit: cover;
-
   
 }
 
