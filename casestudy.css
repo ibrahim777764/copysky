@@ -15,11 +15,12 @@
 }
 .case_study_footer .footer_img {
   width: 100vw;
-  height: 642px;
+  height: 682px;
   object-fit: cover;
   position: absolute;
   top: 0;
 }
+
 
 .case_study_footer .bottom_footer {
   margin-top: 70px;
