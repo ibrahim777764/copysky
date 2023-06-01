@@ -230,7 +230,7 @@ body {
 }
 
  .line {
-width: 46vw;
+width: 47vw;
     height: 0.5rem;
     border-radius: 0.125rem;
     background-color: var(--bluish-color);
@@ -474,7 +474,7 @@ form #submit_btn {
     row-gap: 5px;
     column-gap: 5px;
     width: 127%;
-    margin: 0 5%;
+    margin: 0 4%;
    
   }
 
