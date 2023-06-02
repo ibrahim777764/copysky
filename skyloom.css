@@ -236,7 +236,7 @@ width: 47vw;
     background-color: var(--bluish-color);
 }
 .line2 {
-  width: 34vw;
+  width: 31vw;
     height: 0.5rem;
     border-radius: 0.125rem;
     background-color: var(--bluish-color);
@@ -260,7 +260,7 @@ width: 47vw;
 }
 .lets_talk .footer_img {
   width: 100vw;
-  height: 1086px;
+  height: 1073px;
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -452,8 +452,8 @@ form #submit_btn {
    font-size: 3vw;
  }
  .each_contact .footer_icon {
-  height: 11px;
-  width: 12px;
+  height: 12px;
+  width: 12px
  }
 }
 
@@ -483,12 +483,12 @@ form #submit_btn {
   }
 
   .partners_logo {
-    width: 142px;
+    width: 104px;
   }
 
   .partners_logo {
 
-    height: 85px;
+    height: 65px;
   }
 
   .services .services_block {
@@ -498,7 +498,7 @@ form #submit_btn {
   }
 
   .landing_page .partners {
-    column-gap: 5vw;
+    column-gap: 92px;
   }
 
   .each_service .service_icon {
