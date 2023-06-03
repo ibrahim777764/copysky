@@ -230,13 +230,13 @@ body {
 }
 
  .line {
-width: 47vw;
+width: 48vw;
     height: 0.5rem;
     border-radius: 0.125rem;
     background-color: var(--bluish-color);
 }
 .line2 {
-  width: 31vw;
+  width: 35vw;
     height: 0.5rem;
     border-radius: 0.125rem;
     background-color: var(--bluish-color);
@@ -247,7 +247,7 @@ width: 47vw;
     height: 0.5rem;
     border-radius: 0.125rem;
     background-color: var(--bluish-color);
-    margin-left: 37px;
+    margin-left: 12px;
     }
 /* Let's Talk  */
 .lets_talk {
@@ -260,7 +260,7 @@ width: 47vw;
 }
 .lets_talk .footer_img {
   width: 100vw;
-  height: 1066px;
+  height: 1057px;
   object-fit: cover;
   position: absolute;
   top: 0;
